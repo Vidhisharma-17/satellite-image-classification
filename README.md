@@ -96,34 +96,14 @@ Predicted land-cover classes for unseen satellite images.
 
 ## 📊 Results
 
-| Model | Accuracy | F1 Score |
-|--------|---------:|---------:|
-| ResNet50 | XX.XX% | XX.XX% |
-| DenseNet121 | XX.XX% | XX.XX% |
-| EfficientNetB0 | **95.68%** | **95.69%** |
+| Model | Accuracy | Precision | Recall | F1-Score |
+|--------|---------:|----------:|-------:|---------:|
+| ResNet50 | **95.68%** | **0.956** | **0.956** | **0.956** |
+| EfficientNetB0 | 92.61% | 0.926 | 0.917 | 0.921 |
+| DenseNet121 | 92.26% | 0.922 | 0.913 | 0.917 |
 
 > Replace the remaining values with your actual results.
 
----
-
-## 📁 Repository Structure
-
-```
-Satellite-Image-Classification/
-│
-├── notebooks/
-│   ├── ResNet50_model.ipynb
-│   ├── DenseNet_model.ipynb
-│   └── EfficientNet_model.ipynb
-│
-├── images/
-│
-├── README.md
-│
-└── requirements.txt
-```
-
----
 
 ## 🚀 Future Improvements
 
